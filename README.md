@@ -1,3 +1,5 @@
+Attempt automatically give a portion of a codebase to an LLM so that it can be analyzed and modified.
+
 # LOCAL SETUP
 
 1. Set up containers
