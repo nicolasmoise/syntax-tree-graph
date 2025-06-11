@@ -1,0 +1,19 @@
+{
+  "name": "syntax-tree-graph",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "process_code": "node ./processCode.js",
+    "analyze_code": "node ./analyzeCode.js"
+  },
+  "dependencies": {
+    "axios": "^1.9.0",
+    "escodegen": "^2.1.0",
+    "espree": "^10.3.0",
+    "neo4j-driver": "^5.28.1"
+  }
+}
