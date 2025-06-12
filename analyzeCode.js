@@ -7,6 +7,8 @@ const session = driver.session();
 async function getASTJsonFromNeo4j(rootId = 0) {  
     try {
       // Recursive function to build the tree
+      // TO-DO: make query more releavant to prompt
+      // i.e. only insert such and such files or just fetch high-level nodes.
       const buildTree = async (id) => {
         const res = await session.run(
           `MATCH (n:ASTNode {id: $id})
